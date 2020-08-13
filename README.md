@@ -20,8 +20,6 @@ then cd into the client and:
 
 then go to the server folder and:
 
-then cd into the client and:
-
 ```bash
  yarn install
 ```
