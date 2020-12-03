@@ -19,12 +19,12 @@ const ContactPage = () => {
           data-rel='external'
           style={{ color: 'black' }}
         >
-          <i class='fas fa-phone'></i> 401-447-5446
+          <i className='fas fa-phone'></i> 401-447-5446
         </a>
       </p>
       <p>
         <span style={{ marginRight: 3, fontWeight: 'bold' }}>
-          <i class='far fa-envelope'></i>
+          <i className='far fa-envelope'></i>
         </span>
         naturesfrontierlandscaping@gmail.com
       </p>
@@ -40,8 +40,8 @@ const ContactPage = () => {
         }}
       >
         <Flip left>
-          <div style={{ marginTop: 80 }}>
-            <span className='send-us-email' style={{}}>
+          <div style={{ paddingTop: 80 }}>
+            <span className='send-us-email'>
               Leave us a message for a free estimate!
             </span>
           </div>
