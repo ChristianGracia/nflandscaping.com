@@ -1,5 +1,7 @@
 # Nature's Frontier Landscaping Website
 
+will be rewriting this in TypeScript because I made this when I was less experienced
+
 https://www.nflandscaping.com
 
 React front-end / NodeJs back-end
