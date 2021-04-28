@@ -73,10 +73,8 @@ const AboutPage = () => (
       </Card>
     </div>
     <LightSpeed top cascade>
-      <div style={{ display: 'flex', marginTop: 50 }}>
-        <p className='about-text'>
-          We do Residential, Commercial, and State work.
-        </p>
+      <div className='about-text'>
+        We do Residential, Commercial, and State work.
       </div>
     </LightSpeed>
     <div style={{ paddingBottom: 200 }}></div>
