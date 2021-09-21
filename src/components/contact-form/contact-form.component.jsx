@@ -14,6 +14,7 @@ const ContactForm = () => {
       event.stopPropagation();
     }
     console.log(event);
+    console.log(form);
 
     setValidated(true);
   };
@@ -22,7 +23,7 @@ const ContactForm = () => {
       <Form
         noValidate
         validated={validated}
-        action='https://christiangracia-api-staging.herokuapp.com/email/send-email-nfl'
+        action='https://christiangracia-api.herokuapp.com/email/send-email-nfl'
         method='POST'
         onSubmit={handleSubmit}
         style={{}}
